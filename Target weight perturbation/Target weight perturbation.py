@@ -299,9 +299,9 @@ def UIP_deleting(m,p,v,l,activate,f,location=False):
     
     
     
-    #UIP_loc产生UIP的权重位置
+    
     f_num=int(f*len(UIP_loc))
-    #敲除的UIP个数
+    
     randomA=[]
     while(len(randomA)<(f_num)):
         xx=random.randint(0,len(UIP_loc))
