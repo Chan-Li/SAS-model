@@ -4,4 +4,9 @@ Code for Cifar-10 dataset in paper [Learning Credit Assignment](https://arxiv.or
 * python 3.7.4
 * [CIFAR-10 dataset](https://www.cs.toronto.edu/~kriz/cifar.html)
 # How to run the code
-## code for 
+## code for structure [3072,200,200,10] 
+const text = `
+code
+\`\`\`
+markdown
+\`\`\`
