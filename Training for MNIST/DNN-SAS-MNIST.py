@@ -308,8 +308,8 @@ class NeuralNetwork:
             
 #Save data
 if __name__ == '__main__':
-    for i in range(5):
-        net=NeuralNetwork([784,100,100,10])
+    for i in range(5):#Five independent runs
+        net=NeuralNetwork([784,100,100,10])#Four layers
         test_error=net.SGD(mini_batch_size=500,epoch=200,lr0=0.1)   
         np.save('4layer-d4-10000'+str(i+1)+'MNIST',test_error, allow_pickle=True)
         np.save('4layer-d4-10000'+str(i+1)+'sigmas_MNIST',net.sigmas, allow_pickle=True)
