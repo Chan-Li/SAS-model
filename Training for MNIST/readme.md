@@ -5,7 +5,7 @@ Code for MNIST handwritten digits dataset in paper [Learning Credit Assignment](
 * torch 1.3.1 (pytorch)
 * [THE MNIST DATABASE of handwritten digits](http://yann.lecun.com/exdb/mnist/)
 # How to run the code
-## code for structure [784,100,100,10]
+## code for network structure [784,100,100,10]
 `
 python DNN-SAS-MNIST.py
 `
