@@ -1,5 +1,5 @@
 # SAS-model
-Code for paper [Learning Credit Assignment](https://arxiv.org/abs/2001.03354) (Not published yet, the formal link will be added later.)([arXiv: 2001.03354](https://github.com/Chan-Li/SAS-model)). We put forward a model with random weight characterized by a spike massing at zero and a slab represented by a Gaussian distribution, which obtains comparable or even better performance than traditional models. A general backpropagation method (gBP) is derived out from this perspective.
+Code for paper [Learning Credit Assignment](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.125.178301)([arXiv: 2001.03354](https://github.com/Chan-Li/SAS-model)). We put forward a model with random weight characterized by a spike massing at zero and a slab represented by a Gaussian distribution, which obtains comparable or even better performance than traditional models. A general backpropagation method (gBP) is derived out from this perspective.
 # Requirements
 Different environment may cause some functions invalid. You may need to adjust the code details according to your needs.
 * python 3.7.4
