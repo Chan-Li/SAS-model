@@ -8,5 +8,5 @@ Different environment may cause some functions invalid. You may need to adjust t
 * [THE MNIST DATABASE of handwritten digits](http://yann.lecun.com/exdb/mnist/)
 * [The CIFAR-10 dataset](https://www.cs.toronto.edu/~kriz/cifar.html)
 # Citation
-This code is the product of work carried out by the group of [PMI lab, Sun Yat-sen University](https://www.labxing.com/hphuang2018). If the code helps, consider giving us a shout-out in your publications:
+This code is the product of work carried out by the group of [PMI lab, Sun Yat-sen University](https://www.labxing.com/hphuang2018). If the code helps, consider giving us a shout-out in your publications.
 
