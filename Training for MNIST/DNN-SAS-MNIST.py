@@ -22,6 +22,19 @@ def uni_permu(a,b,direction):
 from utils.functions import relu,drelu,softmax,divi_,mini_batch_generate,sigmoid,dsigmoid,turn_2_zero,scale
 # from functions import relu,drelu,softmax,divi_,mini_batch_generate,sigmoid,dsigmoid,turn_2_zero,scale
 from utils.optimizers import Adam
+def sampling(m,p,v):
+    m=np.array(m)
+    p=np.array(p)
+    v=np.array(v)
+    b=[np.ones(p1.shape) for p1 in p]
+    ran=np.array([random.random(size=(pi.shape)) for pi in p ])
+    for i in range(0,p.shape[0]):
+        for j in range(0,p.shape[1]):
+            if v[i][j]==0:
+                b[i][j]=(turn_2_zero((ran[i][j]-p[i][j])))*m[i][j]
+            else:
+                b[i][j]=(turn_2_zero((ran[i][j]-p[i][j])))*(np.random.normal(m[i][j],np.sqrt(v[i][j])))
+    return b
 class NeuralNetwork:
     def __init__(self,sizes):
         self.num_layers = len(sizes)
